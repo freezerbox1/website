@@ -35,7 +35,7 @@ p {
 
 #main-nav a:hover {
     background-color: rgba(0,0,0,0.1);
-
+    transform: scale(1.2)
 }
 
 #logo {
@@ -105,4 +105,14 @@ th {
 td{
     background-color: rgba(0,0,0,0.1);
     color:#f5f5f5;
+}
+
+#moving {
+    transition: 3s;
+    position: fixed;
+    top: -20px;
+}
+
+#moving:hover {
+    transform: scale(1.2, 0)
 }

@@ -116,3 +116,39 @@ td{
 #moving:hover {
     transform: scale(1.2, 0)
 }
+
+.contact_logo {
+    height: auto;
+    width: 160px;
+
+}
+
+.contacts {
+    text-align: center;
+}
+
+.contact-list {
+    text-align: center;
+}
+
+.contact {
+    width: min-content;
+    height: 100px;
+    margin: 20px;
+    display: inline-block;
+    flex-direction: column;
+}
+
+.logo {
+    width: 124px;
+    height: auto;
+    transition: transform .7s ease-in-out;
+}
+.contact:hover .logo {
+    transform: scale(1.1);
+}
+
+.heading:hover {
+    transform: scale(1.1);
+}
+

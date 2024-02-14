@@ -109,7 +109,7 @@ td{
 }
 
 #moving {
-    transition: 3s;
+    transition: 0.5s;
     position: fixed;
     top: -20px;
 }

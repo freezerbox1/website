@@ -122,3 +122,6 @@ iframe{
 #moving:hover {
     transform: scale(1.2, 0)
 }
+a {
+    color: #dedcff;
+  }

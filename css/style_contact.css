@@ -153,6 +153,7 @@ td{
 
 .hide {
     display: none;
+    position:fixed;
   }
   
   .contact:hover .hide {

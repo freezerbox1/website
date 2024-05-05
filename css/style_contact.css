@@ -151,3 +151,12 @@ td{
     transform: scale(1.1);
 }
 
+.hide {
+    display: none;
+  }
+  
+  .contact:hover .hide {
+    display: block;
+    color: white;
+    font-family: "Bahnschrift", monospace;
+  }

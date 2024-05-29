@@ -78,6 +78,13 @@ h1 {
     color:#f5f5f5;
 }
 
+#freezerbot {
+    width:15%;
+    position:fixed;
+    margin-top: 20px;
+    margin-left: 450px;
+}
+
 ul {
     font-size: 26px;
     text-align: center;
